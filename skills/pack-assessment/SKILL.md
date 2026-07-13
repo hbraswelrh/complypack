@@ -59,7 +59,7 @@ Save to `policy/` directory.
 
 After writing policy files to disk, generate the mapping file that links assessment plan requirement IDs to their generated policy files. The file format depends on the configured `evaluator-id` in `complypack.yaml`. This file is bundled with the policy files when published as a ComplyPack OCI artifact.
 
-### OPA provider (`evaluator-id: opa`) — `compliance-mapping.json`
+### OPA provider (`evaluator-id: opa`) — `complytime-mapping.json`
 
 Maps Gemara Policy assessment plan requirement IDs to the Rego package namespaces of the generated checks. The opa-provider uses this file at scan time to match incoming assessment configurations to the correct Rego policies.
 

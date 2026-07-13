@@ -20,7 +20,7 @@ Generate Rego policies from Gemara Control Catalogs that enforce compliance requ
 | 5. Choose format | Select evaluator output convention | Policy structure |
 | 6. Generate policy | Write Rego against schema contract | .rego file |
 | 7. Write to disk | Save to `policy/` | File on disk |
-| 8. Generate provider mapping | Create provider-specific mapping file | `compliance-mapping.json` (OPA) or `complytime-ampel-policy.json` (Ampel) |
+| 8. Generate provider mapping | Create provider-specific mapping file | `complytime-mapping.json` (OPA) or `complytime-ampel-policy.json` (Ampel) |
 | 9. Validate | Contract check then test | Pass/fail results |
 
 ## Step 1: Scope — Filter to Automated Requirements

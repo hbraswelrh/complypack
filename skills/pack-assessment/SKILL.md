@@ -89,7 +89,7 @@ Maps Gemara Policy assessment plan requirement IDs to the Rego package namespace
 - `id` — the Rego `package` namespace declared in the `.rego` file (e.g., `package kubernetes.tls_version` → `"kubernetes.tls_version"`)
 - `requirement_id` — the Gemara requirement-id from `adherence.assessment-plans[].requirement-id` in the Policy
 - One entry per rego file; no duplicates in either field
-- Write to `compliance-mapping.json` in the policy output directory alongside the `.rego` files
+- Write to `complytime-mapping.json` in the policy output directory alongside the `.rego` files
 
 ### Ampel provider (`evaluator-id: ampel`) — granular policy files + `complytime-ampel-policy.json`
 
